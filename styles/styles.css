@@ -1,4 +1,24 @@
-nav {
+aside {
+    width: 20em;
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* why rgba instead of hex here? */
+    padding: 1em;
+    background-color: #eee;
+    color: #333;
+    text-align:  center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+main img {
+    width: 150px;
+    height: auto;
+}
+
+nav { 
     background-color: steelblue;
     padding: 10px;
 }
@@ -13,7 +33,7 @@ h1 {
 }
 
 img {
-    width: 150px;
+    width: 200px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
@@ -21,5 +41,5 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
 }
