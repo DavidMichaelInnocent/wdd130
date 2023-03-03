@@ -1,0 +1,56 @@
+@import url(https://fonts.google.com/specimen/Climate+Crisis);
+:root {
+    --primary-color:black;
+    --secondary-color:  light;
+    --accent1-color: lightblue;
+    --accent2-color: green;
+  
+    --heading-font: '______', serif;
+    --paragraph-font: '______', serif;
+  
+    --nav-background-color: skyblue;
+    --nav-link-color: blue;
+    --nav-hover-link-color: blue;
+    --nav-hover-background-color: yellow;
+  }
+
+body {
+    max-width: 960px;
+    padding: 20px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+  }
+
+  header {
+    padding: 30px;
+    background-color: var(--accent1-color);
+  }
+
+  p {
+    padding: 25px;
+  }
+
+  nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+  }
+  
+  nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+  }
+  
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+  
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
