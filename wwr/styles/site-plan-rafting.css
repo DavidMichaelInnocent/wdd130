@@ -1,20 +1,21 @@
-@import url(https://fonts.google.com/specimen/Climate+Crisis);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
+
 :root {
-    --primary-color:black;
-    --secondary-color:  light;
-    --accent1-color: lightblue;
-    --accent2-color: green;
+    --primary-color: #264653;
+    --secondary-color: #2A9D8F;
+    --accent1-color: #61b9f4;
+    --accent2-color: #E76F51;
   
-    --heading-font: '______', serif;
-    --paragraph-font: '______', serif;
+    --heading-font: 'cyrillic', serif;
+    --paragraph-font: 'vietnamese', serif;
   
-    --nav-background-color: skyblue;
-    --nav-link-color: blue;
-    --nav-hover-link-color: blue;
-    --nav-hover-background-color: yellow;
+    --nav-background-color: #264653;
+    --nav-link-color: #2A9D8F;
+    --nav-hover-link-color: #F4A261;
+    --nav-hover-background-color: #E76F51;
   }
 
-body {
+  body {
     max-width: 960px;
     padding: 20px;
   }
@@ -25,7 +26,7 @@ body {
   }
 
   header {
-    padding: 30px;
+    padding: 20px;
     background-color: var(--accent1-color);
   }
 
