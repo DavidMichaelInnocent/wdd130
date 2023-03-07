@@ -24,7 +24,7 @@
       height: auto;
       border: 1px solid steelblue;
       padding: 2px;
-      box-shadow: 0 0 20px gray;
+      box-shadow: 0 0 30px gray;
   }
   
   p {
@@ -44,16 +44,16 @@
   
     aside h2 {
       position: absolute;
-      top: 47px;
+      top: 40px;
       left: 140px;
   
     }
     
     
     main img {
-      width: 150px;
+      width: 75px;
       height: auto;
-      border: 1px solid rgb(2, 21, 46);
+      border: 1px solid rgb(2, 21, 40);
       padding: 2px;
       box-shadow: 0 0 30px gray;
       margin: 0 0 1rem 1rem;
