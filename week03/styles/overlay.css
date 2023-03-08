@@ -37,8 +37,8 @@ h2 {
 }
 
 h3 {
-	text-shadow: 0 0 15px #333;
-	border-bottom: 1px solid #999;
+	text-shadow: 0 0 15px #b7c0b7;
+	border-bottom: 1px solid #575454;
 	margin-bottom: 0.3rem;
 }
 
@@ -46,7 +46,7 @@ footer {
 	position: fixed;
 	bottom: 0;
 	margin: 1rem;
-	border-top: 1px solid #000;
+	border-top: 1px solid #d5d1d1;
 	padding: 0.5rem;
 	color: navy;
 	font-weight: 700;
