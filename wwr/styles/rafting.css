@@ -81,7 +81,7 @@
   
   .best{
     display: block;
-    margin-left: 100;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
   }
@@ -93,7 +93,7 @@
   }
   .out{
     display: block;
-    margin-left: 100;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
   }
