@@ -3,7 +3,7 @@
 :root {
     --primary-color: #264653;
     --secondary-color: #2A9D8F;
-    --accent1-color: #F40404;
+    --accent1-color: #F4A261;
     --accent2-color: #E76F51;
   
     --heading-font: 'Merriweather', sans-serif;
@@ -68,13 +68,13 @@
 
   .enjoy{
     display: block;
-    margin-left: 100;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
   }
   .happy{
     display: block;
-    margin-left: 100;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
     text-align: left;
@@ -88,7 +88,7 @@
   }
   .mood{
     display: block;
-    margin-left: 100;
+    margin-left: 0;
     margin-right: auto;
     width: 50%;
   }
