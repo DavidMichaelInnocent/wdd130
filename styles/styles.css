@@ -1,82 +1,105 @@
+header, .grid footer{
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+main{
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+nav {
+  background-color: steelblue;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: white;
+  display: block;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
+}
   
-  nav {
-      background-color: steelblue;
-      padding: 10px;
-    }
+h1 {
+  color: steelblue;
+  border: #000;
+}
   
-  nav a {
-      color: white;
-      display: block;
-      padding: 10px;
-  }
+img {
+  width: 150px;
+  height: auto;
+  border: 1px solid steelblue;
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+}
   
-  h1 {
-      color: steelblue;
-    }
+p {
+  padding: 0px;
+}
   
-  img {
-      width: 150px;
-      height: auto;
-      border: 1px solid steelblue;
-      padding: 2px;
-      box-shadow: 0 0 30px gray;
-  }
+aside {
+  width: 20rem;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  text-align: center;
+}
   
-  p {
-      padding: 0px;
-    }
+aside img {
+  width: 200px;
+  height: auto;
+}
   
-  aside {
-      width: 20em;
-      text-align: center;
-      position: relative;
-    }
-  
-    aside img {
-      width: 200px;
-      height: auto;
-    }
-  
-    aside h2 {
-      position: absolute;
-      top: 40px;
-      left: 135px;
-  
-    }
+aside h2 {
+  position: absolute;
+  top: 40px;
+  left: 135px;
+}
     
-    
-    main img {
-      width: 76px;
-      height: auto;
-      border: 1px solid rgb(2, 21, 40);
-      padding: 2px;
-      box-shadow: 0 0 30px gray;
-      margin: 0 0 1rem 1rem;
-      float: right;
+main img {
+  width: 76px;
+  height: auto;
+  border: 1px solid rgb(2, 21, 40);
+  padding: 2px;
+  box-shadow: 0 0 30px gray;
+  margin: 0 0 1rem 1rem;
+  float: right;
     }
   
-    footer {
-      margin-top: 1em;
-      border-top: 1px solid #000;
-      text-align: center;
-    }
+footer {
+  margin-top: 1em;
+  border-top: 1px solid #000;
+  text-align: center;
+}
   
-    main h1,p {
-      padding: 1rem;
-      }
+main h1,p {
+  padding: 1rem;
+}
   
-  /* Class Selectors */
+/* Class Selectors */
   
-    .box {
-      margin: 1rem;
-      border: 1px solid rgba(0,0,0,.3);
-      padding: 1rem;
-      background-color: #ddd;
-      color: #000;
-      
-    }
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0,0,0,.3);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
+}
