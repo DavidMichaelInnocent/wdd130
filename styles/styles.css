@@ -40,7 +40,7 @@ nav a {
   
 h1 {
   color: steelblue;
-  border: #000;
+  border-bottom: solid steelblue;
 }
   
 img {
