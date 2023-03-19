@@ -170,22 +170,23 @@ footer {
 }
 
 .best {
-display: grid;
-gap: 15px;
-grid-template-columns: auto auto auto;
-background-color: rgb(255, 255, 255);
-padding: 5px;
-text-align: center;
-font-size: small;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(255, 255, 255);
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+  justify-content: center;
 }
 
 figcaption{
- background-color: #fff;
- font: var(--paragraph-font);
- padding: 1px;
- align-items: center;
- box-shadow: 7px 7px 30px gray;
- border-radius: 5px;
+  background-color: #fff;
+  font: var(--paragraph-font);
+  padding: 1px;
+  align-items: center;
+  box-shadow: 7px 7px 30px gray;
+  border-radius: 5px;
 }
 
 .image-grid{
