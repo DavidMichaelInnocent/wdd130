@@ -138,9 +138,8 @@ section p {
   grid-column: 2/3;
   margin: 1rem;
   justify-content: space-between;
-  padding: 2x;
   text-align: center;
-  box-shadow: 7x 7px 30px gray;
+  
 }
 
 footer {
@@ -167,25 +166,22 @@ footer {
   float: right;
   transform: translate(-30%);
   background-color: var(--nav-background-color);
-  color: solid #fff;
+  
 }
 
 .best {
 display: grid;
 gap: 15px;
 grid-template-columns: auto auto auto;
-background-color: #fff;
+background-color: rgb(255, 255, 255);
 padding: 5px;
 text-align: center;
 font-size: small;
 }
-.his {
-  float: bottom;
-}
 
 figcaption{
  background-color: #fff;
- columns: #fff;
+ columns: #ffff;
  font: var(--paragraph-font);
  padding: 1px;
  align-items: center;
