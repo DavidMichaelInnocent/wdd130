@@ -34,7 +34,6 @@ h1 {
 }
 
 h2, h3{
-  color: var(- --secondary-color);
   display: flex;
   justify-content: center;
 }
