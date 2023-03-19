@@ -181,7 +181,6 @@ font-size: small;
 
 figcaption{
  background-color: #fff;
- columns: #ffff;
  font: var(--paragraph-font);
  padding: 1px;
  align-items: center;
