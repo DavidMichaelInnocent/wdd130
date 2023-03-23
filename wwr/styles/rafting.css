@@ -15,7 +15,6 @@
   --nav-hover-background-color: #E76F51;
 }
 
-
 .hero {
   height: 300px;
 }
@@ -150,7 +149,7 @@ footer {
 
 .adv {
   background: rgb(73, 85, 163, 0);
-  border: #000 solid 0px;
+  border: #4b4747 solid 1px;
   display: flex;
 }
 p {
@@ -181,4 +180,5 @@ figcaption {
 
 .di {
   display: flex;
+  height: auto;
 }
