@@ -187,8 +187,13 @@ figcaption {
 }
 
 .di {
-  display: flex;
+  float: inline-end;
   height: auto;
+  border-color: #264653;
+  padding: 1rem;
+  font-size: smaller;
+  display: flex;
+  gap: 20;
 }
 
 .contact-in {
@@ -271,4 +276,38 @@ figcaption {
 
 button:hover {
   border-color: #52796f;
+}
+
+.one {
+  height: 100%;
+  width: 100%;
+  border-image: url(4.jpeg);
+  animation-name: mi;
+  border: #2A9D8F;
+  background-color: #2A9D8F;
+  position: relative;
+  z-index: 1;
+  animation: 5s linear infinite;
+}
+
+@keyframes mi {
+  0%{
+    transform: scale(.9);
+    opacity: 0;
+  }
+
+  20%{
+    transform: scale(.1);
+    opacity: 1;
+  } 
+
+  80%{
+    transform: scale(.9);
+    opacity: 0;
+  }
+  100%{
+    transform: translate(100px);
+    opacity: 0;
+  }
+  
 }
