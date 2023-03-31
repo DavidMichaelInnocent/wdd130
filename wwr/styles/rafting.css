@@ -230,7 +230,6 @@ button {
   background-color: #264653;
   color: aliceblue;
   border-radius: .6rem;
-  width: 100%;
 }
 
 label, input, button, select, textarea {
@@ -290,20 +289,6 @@ button:hover {
   background-color: #ccd6da;
 }
 
-.pa {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  font-style: italic;
-  font-size: small;
-}
-
-.paa {
-  display: grid;
-  grid-template-columns: 7fr;
-  font-style: italic;
-  font-size: smaller;
-}
-
 .call {
   display: grid;
   justify-content: center;
@@ -320,4 +305,16 @@ button:hover {
   font-size: medium;
   font-style: italic;
   background-color: #ccd6da;
+}
+
+.button {
+  width: 100%;
+  font-size: 1.1rem;
+  border: none;
+  padding: 0.76rem;
+  background-color: #264653;
+  color: aliceblue;
+  border-radius: .6rem;
+  justify-content: center;
+  display: flex;
 }
