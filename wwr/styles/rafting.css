@@ -319,17 +319,12 @@ button:hover {
   display: flex;
 }
 
-table {
+table, .h44 {
   width: 100%;
   padding: 30;
  background-color: #e3e9f4;
 }
 
-.h44 {
-  width: 100%;
-  padding: 30;
- background-color: #e3e9f4;
-}
 table, th, td {
   border: 1px solid;
   padding: 15px;
@@ -346,6 +341,6 @@ table, th, td {
 .it {
   width: 98%;
   background-color: #060505e7;
-  color: white;
+  color: whi;
   border-radius: 10px;
 }
