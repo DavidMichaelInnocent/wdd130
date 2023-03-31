@@ -72,9 +72,8 @@ h1, h2, h3 h4, h5, h6{
 
 .image-grid img {
   max-width:100%;
-  height: auto;
   box-shadow: 3px 3px 30px gray;
-  border-radius: 4px;
+  border-radius: 3px;
 }
 
 .article-image {
@@ -139,7 +138,8 @@ footer {
   border-color: #362653 ;
   display: grid;
   grid-template-columns: repeat(2,9fr);
-  column-gap: 15px;
+  column-gap: 5px;
+  background-color: white;
 }
 
 .sociallinks p {
@@ -230,6 +230,7 @@ button {
   background-color: #264653;
   color: aliceblue;
   border-radius: .6rem;
+  width: 100%;
 }
 
 label, input, button, select, textarea {
@@ -280,11 +281,6 @@ button:hover {
   border-style: inset solid;
 }
 
-.but {
-  width: 100%;
-  font-size: large;
-}
-
 .purpose {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -296,14 +292,16 @@ button:hover {
 
 .pa {
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 3fr 1fr;
   font-style: italic;
+  font-size: small;
 }
 
 .paa {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 7fr;
   font-style: italic;
+  font-size: smaller;
 }
 
 .call {
@@ -313,6 +311,13 @@ button:hover {
   border-style: inset solid;
 }
 
-.conta {
-  width: 100%;
+.trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  column-gap: 10px;
+  border-style: dashed;
+  font-size: medium;
+  font-style: italic;
+  background-color: #ccd6da;
 }
