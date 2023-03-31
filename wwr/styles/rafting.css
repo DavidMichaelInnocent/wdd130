@@ -34,11 +34,12 @@ body {
  
 }
 
-h1, h2, h3 h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   color: var(--primary-color);
   display: flex;
   justify-content: center;
 }
+
 .hero-image {
   position: absolute;
   top: 0;
@@ -184,12 +185,11 @@ figcaption {
 }
 
 .di {
-  padding: 10px;
-  font-size: smaller;
+  padding: 5px;
   display: flex;
-  column-gap: 20px;
-  
+  column-gap: 5px;
 }
+
 
 .contact-in {
   display: block;
@@ -308,7 +308,7 @@ button:hover {
 }
 
 .button {
-  width: 100%;
+  width: 90%;
   font-size: 1.1rem;
   border: none;
   padding: 0.76rem;
@@ -317,4 +317,30 @@ button:hover {
   border-radius: .6rem;
   justify-content: center;
   display: flex;
+}
+
+table, h4 {
+  width: 100%;
+  padding: 30;
+ background-color: #e3e9f4;
+}
+
+table, th, td {
+  border: 1px solid;
+  padding: 15px;
+}
+
+.travels {
+  color: #E76F51;
+}
+
+.travel {
+  color: #1021e4;
+}
+
+.it {
+  width: 98%;
+  background-color: #060505e7;
+  color: white;
+  border-radius: 10px;
 }
