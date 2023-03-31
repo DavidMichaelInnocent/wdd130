@@ -321,7 +321,6 @@ button:hover {
 
 table, .h44 {
   width: 100%;
-  padding: 30;
  background-color: #e3e9f4;
 }
 
@@ -341,6 +340,6 @@ table, th, td {
 .it {
   width: 98%;
   background-color: #060505e7;
-  color: whi;
+  color: white;
   border-radius: 10px;
 }
