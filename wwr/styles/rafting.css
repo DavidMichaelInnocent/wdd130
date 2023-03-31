@@ -319,12 +319,17 @@ button:hover {
   display: flex;
 }
 
-table, h4 {
+table {
   width: 100%;
   padding: 30;
  background-color: #e3e9f4;
 }
 
+.h44 {
+  width: 100%;
+  padding: 30;
+ background-color: #e3e9f4;
+}
 table, th, td {
   border: 1px solid;
   padding: 15px;
