@@ -353,3 +353,15 @@ table, th, td {
   border-style: dashed;
   border-radius: 20%;
 }
+
+.button1 {
+  width: 97%;
+  font-size: 1.1rem;
+  border: none;
+  padding: 0.76rem;
+  background-color: #264653;
+  color: aliceblue;
+  border-radius: .6rem;
+  justify-content: center;
+  display: flex;
+}
