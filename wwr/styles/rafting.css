@@ -329,9 +329,7 @@ table, th, td {
   padding: 15px;
 }
 
-.travels {
-  color: #E76F51;
-}
+
 
 .travel {
   color: #1021e4;
@@ -342,4 +340,16 @@ table, th, td {
   background-color: #060505e7;
   color: white;
   border-radius: 10px;
+}
+
+.fig {
+  width: 840px;
+  position: relative;
+  background-color: white;
+  box-shadow: none;
+}
+
+.se {
+  border-style: dashed;
+  border-radius: 20%;
 }
