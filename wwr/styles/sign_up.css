@@ -80,3 +80,26 @@ button:hover {
   float: right;
   transform: translate(-100%);
 }
+
+.home {
+  justify-content: center;
+  display: flex;
+  float: right;
+  background-color: #551a8b;
+  color: #fff;
+  padding: 20px 30px;
+}
+
+.footer{
+  display: flex;
+  grid-template-columns: 1fr, 1fr;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+.sociallinks {
+  display: flex;
+  gap: 20px;
+  float: right;
+  width: 20%;
+}
