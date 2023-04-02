@@ -194,7 +194,6 @@ hr {
 
 .footer{
   display: flex;
-  grid-template-columns: 1fr, 1fr;
   justify-content: center;
   column-gap: 10px;
 }
