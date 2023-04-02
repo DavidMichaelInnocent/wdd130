@@ -42,7 +42,7 @@ button:hover {
 .cancelbtn {
   width: auto;
   padding: 10px 18px;
-  background-color: #3f36f4;
+  background-color: #264653;
 }
 
 /* Center the avatar image inside this container */
@@ -98,7 +98,7 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for all buttons */
 button {
-  background-color: #04AA6D;
+  background-color: #264653;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -115,7 +115,6 @@ button:hover {
 /* Extra styles for the cancel button */
 .cancelbtn {
   padding: 5px;
-  background-color: #a797c3;
   color: #fff;
 }
 
