@@ -77,8 +77,8 @@ button:hover {
 }
 
 .ps {
-  float: right;
-  transform: translate(-100%);
+  display: flex;
+  justify-content: center;
 }
 
 .home {

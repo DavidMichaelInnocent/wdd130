@@ -190,9 +190,8 @@ hr {
 }
 
 .ps {
- float: right;
- transform: translate(-40%);
- text-decoration: none;
+  display: flex;
+ justify-content: center;
 }
 
 .footer{
