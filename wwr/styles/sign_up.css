@@ -88,6 +88,7 @@ button:hover {
   background-color: #551a8b;
   color: #fff;
   padding: 20px 30px;
+  text-decoration: none;
 }
 
 .footer{
@@ -101,4 +102,8 @@ button:hover {
   gap: 20px;
   float: right;
   width: 20%;
+}
+
+.sp {
+  text-decoration: none;
 }

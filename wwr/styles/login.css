@@ -66,6 +66,7 @@ img.avatar {
 span.psw {
   float: right;
   padding-top: 16px;
+  text-decoration: none;
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -73,6 +74,7 @@ span.psw {
   span.psw {
     display: block;
     float: none;
+    text-decoration: none;
   }
   .cancelbtn {
     width: 100%;
@@ -190,6 +192,7 @@ hr {
 .ps {
  float: right;
  transform: translate(-40%);
+ text-decoration: none;
 }
 
 .footer{
@@ -212,4 +215,9 @@ hr {
   background-color:#551a8b;
   color: #fff;
   padding: 20px 30px;
+  text-decoration: none;
+}
+
+.sp {
+  text-decoration: none;
 }
