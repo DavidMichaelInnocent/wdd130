@@ -351,6 +351,7 @@ table, th, td {
 .se {
   border-style: dashed;
   border-radius: 20%;
+  background-color: #ccd6da;
 }
 
 .button1 {
